@@ -11,6 +11,9 @@ a, a:hover, a:focus, a:active, a.active {
     outline: 0;
     color: #219ab3;
 }
+h1 {
+  margin: 0;
+}
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
