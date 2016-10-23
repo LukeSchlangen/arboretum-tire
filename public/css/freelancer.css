@@ -434,6 +434,13 @@ body {
   padding-bottom: 30px;
 }
 
-.print {
-  display: none;
+@media print {
+    .do-not-print {
+      display: none;
+    }
+    .print {
+      display: block;
+      max-height: 95vh;
+      text-align: center;
+    }
 }
