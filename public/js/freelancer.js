@@ -49,28 +49,3 @@ function resizeYoutubeVideo() {
     var newHeight = $('.modal-lg').width() * 480 / 832;
     $('#youtubeIframe').height(newHeight);
 }
-
-function printPDF() 
-{
-     var printContents = window.open("img/Specials.pdf");
-     var originalContents = document.body.innerHTML;
-
-     document.body.innerHTML = printContents;
-
-     window.print();
-
-     //document.body.innerHTML = originalContents;
-     location.reload();
-}
-
-function printDiv(divName) {
-     var printContents = document.getElementById(divName).innerHTML;
-     var originalContents = document.body.innerHTML;
-
-     document.body.innerHTML = printContents;
-
-     window.print();
-
-     //document.body.innerHTML = originalContents;
-     location.reload();
-}

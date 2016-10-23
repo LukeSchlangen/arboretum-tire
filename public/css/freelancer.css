@@ -433,3 +433,7 @@ body {
   margin-top: 100px;
   padding-bottom: 30px;
 }
+
+.print {
+  display: none;
+}
