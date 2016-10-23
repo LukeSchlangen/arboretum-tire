@@ -434,6 +434,10 @@ body {
   padding-bottom: 30px;
 }
 
+.print {
+  display: none;
+}
+
 @media print {
     .do-not-print {
       display: none;
