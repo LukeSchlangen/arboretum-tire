@@ -5,7 +5,7 @@ var index = require('./routes/index');
 var badRequest = require('./routes/bad-request');
 
 app.listen(portDecision, function(){
-  console.log('Live on port ', portDecision);
+  console.log('Running on port ', portDecision);
 });
 
 app.get('/', index);
