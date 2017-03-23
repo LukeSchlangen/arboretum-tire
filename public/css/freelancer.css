@@ -442,12 +442,16 @@ body {
 }
 
 @media print {
+    @page {
+        size: landscape
+    }
+
     .do-not-print {
       display: none;
     }
     .print {
       display: block;
-      max-height: 95vh;
+      max-height: 90vh;
       text-align: center;
     }
 }
